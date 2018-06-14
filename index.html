@@ -72,6 +72,87 @@
                             -1px 1px 0 #FFF,
                             1px 1px 0 #FFF;
             }
+            .reveal section img {
+                border: none;
+                box-shadow: none;
+            }
+
+            .absolute-center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                min-width: 50vw;
+                text-align: center;
+                transform: translateX(-50%) translateY(-50%);
+            }
+
+            .bg-solarized {
+                background: rgb( 253, 246, 228 );
+            }
+
+            .reveal section .solarized-text,
+            .reveal section .solarized-bar-text,
+            .reveal section .solarized-search-text {
+                font-family: DejaVu Sans Mono, Monaco, monospace;
+                text-transform: none;
+                border-style: solid;
+                border-width: 10px 0 5px;
+                border-color: rgb( 253, 246, 228 ); /* simulated screen background */
+            }
+
+            .reveal section .solarized-text {
+                padding: 0 0.5em;
+                background: rgb( 253, 246, 228 ); /* background color */
+                color: rgb( 131, 148, 150 );
+            }
+
+            .reveal section .solarized-bar-text {
+                padding: 0 0.5em;
+                background: rgb( 133, 152, 28 ); /* bar background color */
+                color: rgb( 3, 53, 64 );
+            }
+
+            .reveal section .solarized-search-text {
+                border-width: 10px 5px 5px;
+                padding: 0 8px;
+                background: rgb( 180, 136, 29 ); /* search bar background color */
+                color: rgb( 3, 53, 64 );
+            }
+
+            .reveal .slides section .fragment.highlight-current-white,
+            .reveal .slides section .fragment.highlight-current-purple {
+                opacity: 1;
+                visibility: inherit;
+            }
+            .reveal .slides section .highlight-white,
+            .reveal .slides section .fragment.highlight-current-white.current-fragment {
+                color: white;
+            }
+            .reveal .slides section .highlight-purple,
+            .reveal .slides section .fragment.highlight-current-purple.current-fragment {
+                color: #c223a8;
+            }
+
+            .reveal .slides section .highlight-red {
+                color: #ff2c2d;
+            }
+
+            .reveal section kbd {
+                text-transform: none;
+                font-family: Monaco, monospace;
+                white-space: nowrap;
+            }
+
+            .nowrap {
+                white-space: nowrap;
+            }
+
+            .reveal table.character-map tbody tr td {
+                border: none;
+                font-size: 2.5em;
+                text-align: center;
+            }
+
         </style>
     </head>
 
@@ -82,7 +163,11 @@
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
 
-                <section data-markdown="slides.md" data-separator="^------\n" data-separator-vertical="^---\n" data-separator-notes="^Note:"></section>
+                <section data-markdown="slides.md"
+                    data-separator="^---\s*\n*\s*\{\s*[Tt][Oo][Pp][Ii][Cc]\s*\}\n"
+                    data-separator-vertical="^---\n"
+                    data-separator-notes="^\^"
+                ></section>
 
             </div>
 
@@ -101,7 +186,7 @@
                 history: true,
                 center: true,
 
-                transition: 'slide', // none/fade/slide/convex/concave/zoom
+                transition: 'none', // none/fade/slide/convex/concave/zoom
 
                 // Optional reveal.js plugins
                 dependencies: [
