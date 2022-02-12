@@ -1,24 +1,22 @@
 
-# TALK NAME
+# Organized Development With Tmux
 
-This presentation covers TALK TOPIC
+This presentation covers the basics of Tmux
 
-* [View the talk](http://preaction.github.io/REPO_NAME/)
-* [Read the notes](http://github.com/preaction/REPO_NAME/blob/master/NOTES.md)
+* [View the talk](https://www.youtube.com/watch?v=o7Dg1kmjhfQ)
+* [Read the notes](https://github.com/preaction/Organized-Development-With-Tmux/blob/master/slides.md)
 
 ## Abstract
 
+Tmux is a terminal multiplexer that enables the use of multiple shells in a terminal.
+
 ## Covered Topics
 
-TBA
+* Managing windows and panes
+* Configuration
+* Layouts
 
-# AUTHOR
-
-About the author.
-
-Speaking credentials.
-
-# COPYRIGHT AND LICENSE
+## Copyright and License
 
 Copyright 2017 Doug Bell <preaction@cpan.org>
 
