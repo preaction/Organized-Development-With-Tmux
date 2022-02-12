@@ -8,11 +8,13 @@ This presentation covers the basics of Tmux
 
 ## Abstract
 
+Tmux is a terminal multiplexer that enables the use of multiple shells in a terminal.
+
 ## Covered Topics
 
-Managing windows and panes
-Configuration
-Layouts
+* Managing windows and panes
+* Configuration
+* Layouts
 
 # COPYRIGHT AND LICENSE
 
