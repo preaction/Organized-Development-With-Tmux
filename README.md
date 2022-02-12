@@ -1,7 +1,7 @@
 
-# TALK NAME
+# Organized Development With Tmux
 
-This presentation covers TALK TOPIC
+This presentation covers the basics of Tmux
 
 * [View the talk](https://www.youtube.com/watch?v=o7Dg1kmjhfQ)
 * [Read the notes](http://github.com/preaction/Organized-Development-With-Tmux/blob/master/slides.md)
@@ -10,13 +10,9 @@ This presentation covers TALK TOPIC
 
 ## Covered Topics
 
-TBA
-
-# AUTHOR
-
-About the author.
-
-Speaking credentials.
+Managing windows and panes
+Configuration
+Layouts
 
 # COPYRIGHT AND LICENSE
 
