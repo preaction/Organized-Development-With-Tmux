@@ -4,7 +4,7 @@
 This presentation covers TALK TOPIC
 
 * [View the talk](https://www.youtube.com/watch?v=o7Dg1kmjhfQ)
-* [Read the notes](http://github.com/preaction/REPO_NAME/blob/master/NOTES.md)
+* [Read the notes](http://github.com/preaction/Organized-Development-With-Tmux/blob/master/slides.md
 
 ## Abstract
 
