@@ -16,7 +16,7 @@ Tmux is a terminal multiplexer that enables the use of multiple shells in a term
 * Configuration
 * Layouts
 
-## COPYRIGHT AND LICENSE
+## Copyright AND License
 
 Copyright 2017 Doug Bell <preaction@cpan.org>
 
